@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web week2 Assignment</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>I love doing</h2>
+    <ol type="I">
+        <li>Coding</li>
+        <li>Music</li>
+        <li>Sports</li>
+        <li>Traveling</li>
+    </ol>
+       
+    <!-- External Image from Pexels -->
+    <h2>Beautiful Scenery</h2>
+    <img src="https://images.pexels.com/photos/31008029/pexels-photo-31008029/free-photo-of-aerial-view-of-shibuya-crossing-at-night-in-tokyo.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+         alt="city crossing at night" 
+         width="500">
+
+    <!-- Contact Table -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Alice Wanjiku</td>
+                <td>123 Thika Rd</td>
+                <td>+1234567890</td>
+                <td>alice@example.com</td>
+            </tr>
+            <tr>
+                <td>Bob Johnson</td>
+                <td>456 Mlimani Ave</td>
+                <td>+2345678901</td>
+                <td>bob@example.com</td>
+            </tr>
+            <tr>
+                <td>Charlie Omondi</td>
+                <td>789 Langata Rd</td>
+                <td>+3456789012</td>
+                <td>charlie@example.com</td>
+            </tr>
+            <tr>
+                <td>Diana Rose</td>
+                <td>321 Maple St</td>
+                <td>+4567890123</td>
+                <td>diana@example.com</td>
+            </tr>
+            <tr>
+                <td>Edward King</td>
+                <td>654 kiambu kikuyu</td>
+                <td>+5678901234</td>
+                <td>Kamau@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Register Here</h2>
+    <form action="#" method="post">
+        <!-- Name Field -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email Address:</label><br>
+        <input type="email" id="email" name="email" placeholder="example@mail.com" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Enter a password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Select your country:</label><br>
+        <select id="country" name="country" required>
+            <option value="">--Choose--</option>
+            <option value="nigeria">Nigeria</option>
+            <option value="ghana">Ghana</option>
+            <option value="kenya">Kenya</option>
+            <option value="southafrica">South Africa</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label><br>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        
+
+        <!-- Checkboxes -->
+        <label>Hobbies:</label><br>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+        <label for="reading">Reading</label><br>
+
+        <input type="checkbox" id="traveling" name="hobbies" value="traveling">
+        <label for="traveling">Traveling</label><br>
+
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <label for="sports">Sports</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+    <br>
+
+    <!-- External video from istock-->
+    <h2>Watch this video</h2>
+    <video width="500" height="300" controls autoplay muted>
+        <source  src="https://media.istockphoto.com/id/1853692026/video/writing-thank-you.mp4?s=mp4-640x640-is&k=20&c=cdKQ5NpCax35sXDKf05yMKc7XGwjCHjU8hVNEllfCgU=" type="video/mp4" loop>
+    </video>
+
+</body>
+</html>
